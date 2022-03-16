@@ -523,6 +523,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BitcoinMiner
 
+# Porn
+PRODUCT_PACKAGES += \
+    PornHub
+
 # Cyberpunk 2077
 PRODUCT_PACKGES += \
     CyberPunk
