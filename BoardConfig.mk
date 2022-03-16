@@ -212,3 +212,6 @@ TARGET_COPY_OUT_DFU := dfu
 
 TARGET_BUILDBOTS += SebaUbuntu
 TARGET_PREVENT_BUILDBOTS := true
+ifeq(filter $$(whoami),$(TARGET_BUILDBOTS))
+@echo "Fuck off you buildbots!"
+endif
