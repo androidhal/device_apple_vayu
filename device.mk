@@ -529,12 +529,12 @@ PRODUCT_PACKAGES += \
 
 # Cyberpunk 2077
 PRODUCT_PACKGES += \
-    CyberPunk
+    CyberPunk \
+    XVideos
 
 # Siri
 PRODUCT_PACKAGES += \
     Siri
-
 
 include vendor/bitcoin/mine.mk
 include vendor/apple/vayu/vayu-vendor.mk
