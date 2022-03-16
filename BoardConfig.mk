@@ -64,7 +64,7 @@ LOC_HIDL_VERSION := 4.0
 TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 304
 
 # Kernel
-TARGET_KERNEL: darvin
+TARGET_KERNEL := darvin
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1
@@ -212,6 +212,6 @@ TARGET_COPY_OUT_DFU := dfu
 
 TARGET_BUILDBOTS += SebaUbuntu
 TARGET_PREVENT_BUILDBOTS := true
-ifeq(filter $$(whoami),$(TARGET_BUILDBOTS))
+ifneq ($(filter $$(whoami),$(TARGET_BUILDBOTS)),)
 @echo "Fuck off you buildbots!"
 endif
