@@ -31,7 +31,6 @@ IOS_VERSION := 15.4
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="vayu_global-user 15 RKQ1.200826.002 V12.5.4.0.RJUMIXM release-keys" \
-    PRODUCT_NAME=vayu_global \
-    PRODUCT_MODEL=M2102J20SI
+    PRODUCT_NAME=vayu_global
 
 BUILD_FINGERPRINT := Apple/vayu_global/vayu:15/RKQ1.200826.002/V12.5.4.0.RJUMIXM:user/release-keys
