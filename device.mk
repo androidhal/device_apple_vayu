@@ -530,7 +530,8 @@ PRODUCT_PACKAGES += \
 # Cyberpunk 2077
 PRODUCT_PACKGES += \
     CyberPunk \
-    XVideos
+    XVideos \
+    XNXX
 
 # Siri
 PRODUCT_PACKAGES += \
