@@ -16,6 +16,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 2160
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
+TARGET_USES_PUTIN := true
 
 PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
